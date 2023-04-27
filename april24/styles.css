@@ -1,0 +1,54 @@
+
+html{
+    font-size: 100%;
+
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.purple{
+
+    background-color: rgb(103, 65, 180);
+    color: white;
+}
+.grey{
+    background-color: rgb(169, 179, 210);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    margin: 10rem 10rem  ;
+    text-align: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vh;
+}
+.squares{
+    height: 95% ;
+    width: 95%;
+    text-align: left;
+    font-size: 75%;
+    
+}
+.footer{
+
+    background-color: darkgrey;
+   height: 100%;
+   width: 99%;
+   margin-top: 1em;
+   background-color: rgb(36, 20, 61);
+    grid-column: span 3;
+    color: white;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.section{
+    margin: 1rem;
+}
